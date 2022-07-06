@@ -23,19 +23,84 @@ h1 {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 .button {
     text-align: center;
     margin-top: 50px;
 }
 .cta-button {
-    
-    color: aliceblue;
+    font-weight: 500;
+    color: #474747;
     text-decoration: none;
-    background-color: #FF5959;
+    background-color: #eeeeee;
     margin: 20px;
     padding: 10px 40px;
     border-radius: 50px;
     box-shadow: 5px 0px 10px black;
+}
+.donation-sec {
+    display: flex;
+    min-height: 70%;
+    justify-content: center;
+}
+#donation-sec {
+    margin: 50px;
+    margin-top: 100px;
+    padding: 20px;
+}
+h2 {
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: rgb(35, 35, 35);
+    text-align: center;
+    font-size: 50px;
+}
+.donation-amount{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.fix-amount {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(35, 35, 35);
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    background-color: #eeeeee;
+    border-radius: 5px;
+
+}
+#selected-amount {
+    border:3px solid #474747;
+}
+.amount-input {
+    font-size: 16px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #474747;
+    border-radius: 50px;
+    max-width: fit-content;
+}
+.custom-amount {
+    margin: 20px;
+    text-align: center;
+}
+.donate-plan {
+    display: flex;
+    
+}
+.donate-plan-type {
+    display: inline-block;
+    border: 2px solid #474747;
+    background-color: rgba(79, 157, 166, 0.1);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
 }
