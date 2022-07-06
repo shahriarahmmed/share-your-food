@@ -93,14 +93,85 @@ h2 {
     text-align: center;
 }
 .donate-plan {
+    margin: 20px;
+    margin-top: 60px;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 .donate-plan-type {
     display: inline-block;
     border: 2px solid #474747;
     background-color: rgba(79, 157, 166, 0.1);
     margin: 15px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
+   text-align: justify;
+}
+.donation-process {
+    text-align: center;
+}
+.first-sec {
+    display: inline-flex;
+    margin: 40px;
+    margin-top: 80px;
+}
+h3 {
+    font-size: 30px;
+}
+.donate-process {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.how-to-donate {
+    margin: 20px;
+    margin-top: 40px;
+}
+.banner-img {
+    height: 320px;
+    width: 450px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 80px;
+ 
+}
+.second-sec {
+    display: inline-flex;
+    margin: 40px;
+    margin-top: 80px;
+}
+.newsletterBx {
+    background-color: #FFF4D6;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.mail {
+    text-decoration: none;
+    background-color: #e7e7e7;
+    margin-right: 0;
+    padding: 15px;
+    border: 3px;
+    border-radius: 50px 0px 0px 50px;
+}
+.sub-button {
+    text-decoration: none;
+    font-weight: 400;
+    color: #e7e7e7;
+    background-color: #FF5959;
+    margin-left: 0;
+    padding: 10px;
+    border: 3px;
+    border-radius: 0px 50px 50px 0px;
+}
+footer {
+    text-align: center;
+}
+span {
+    font-family: 'Clicker Script', cursive;
+    font-size: 25px;
 }
